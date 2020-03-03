@@ -1,0 +1,97 @@
+div {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 10vh;    
+}
+.left{
+    border:3px solid black;
+    position:relative;
+    width:100vw;
+    height:100vh;
+    padding:10px;
+}
+/*first Child*/
+.left > div:first-child {  
+    border: 2px solid black;  
+    width:10vw;
+    height:10vh;
+    position:absolute;
+    background-color: blueviolet;    
+}
+/*second Child*/
+.left > div:nth-child(2) {  
+    border: 2px solid black;  
+    width:10vw;
+    height:10vh;
+    margin-left:10vw;
+    margin-top:10vh;
+    position:absolute;
+    background-color: burlywood;
+}
+/*third Child*/
+.left > div:nth-child(3) {  
+    border: 2px solid black;  
+    width:10vw;
+    height:10vh;
+    margin-left:20vw;
+    margin-top:20vh;
+    position:absolute;
+    background-color: blue;
+}
+/*fourth Child*/
+.left > div:nth-child(4) {  
+    border: 2px solid black;  
+    width:10vw;
+    height:10vh;
+    margin-left:30vw;
+    margin-top:30vh;
+    position:absolute;
+    background-color: greenyellow;
+}
+/*Sixth Child*/
+.left > div:nth-child(5) {
+    border: 2px solid black;  
+    width:10vw;
+    height:10vh;
+    margin-left: 50vw;
+    margin-top:30vh;
+    position:absolute;
+    background-color: blueviolet;
+}
+/*Seventh Child*/
+.left > div:nth-child(6) {
+    border: 2px solid black;  
+    width:10vw;
+    height:10vh;
+    margin-left: 60vw;
+    margin-top:20vh;
+    position:absolute;
+    background-color: blue;
+}
+/*Eighth Child*/
+.left > div:nth-child(7){
+    border: 2px solid black;  
+    width:10vw;
+    height:10vh;
+    margin-left: 70vw;
+    margin-top:10vh;
+    position:absolute;
+    background-color: burlywood;
+    
+
+}
+/*Last Child*/
+.left > div:last-child {
+    border: 2px solid black;  
+    width:10vw;
+    height:10vh;
+    margin-left:80vw; 
+    position:absolute;
+    background-color: greenyellow;
+    
+
+}
+.left > div:hover {
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.4); 
+    background-color: coral;
+}

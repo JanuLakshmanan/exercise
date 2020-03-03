@@ -1,0 +1,183 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+@import url(https://fonts.googleapis.com/css?family=Lily+Script+One);
+/*body*/
+body {
+   font-family: Roboto !important;
+   margin:0 auto;
+}
+/* first section*/
+.outer_box {
+    width:100vw;
+    background-image: url("/content/images/crumpled.jpg");
+    background-size: cover;
+    height:130vh;
+    padding:10px;
+    position:relative;
+}
+.inner_box,.inner_box2,.inner_box3 {
+    border: 2px solid black;  
+    width:15vw;
+    height:30vh;
+    position:absolute;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.4);
+}
+.inner_box {
+    background-image: url("/content/images/330px-Webtoon_Zeroth_generation.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.inner_box2 {
+    background-image: url("/content/images/Tower_of_God_(Season_1)_Ep._2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left:15vw;
+    margin-top:30vh;
+    border-radius: 50%;
+}
+.inner_box3 {
+    background-image: url("/content/images/330px-Webtoon_second_generation.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left:30vw;
+    margin-top:60vh;
+}
+.inner_box4 {
+    border: 2px solid black; 
+    background-color: rgba(127,63,191,0.7); 
+    width:15vw;
+    height:30vh;
+    margin-left: 45vw;
+    margin-top:90vh;
+    position:absolute;
+}
+#janu h1 {
+    font-size: 36px;
+    border:solid green;
+    border-width: 1px 5px 2px 3px ;         
+    color:red;
+}
+/*h3*/
+h3 {
+    border-width:4px 2px 0 4px;
+     border:solid green;   
+}
+/*header*/
+header {
+    color: black;
+    background-color: lightgreen;
+    position:sticky;
+    top: 0;
+	font-family:'Lily Script One', cursive;
+	font-size:20px;
+	text-align:center;   
+}
+header:hover {
+	color:cornflowerblue;
+}
+/*h4 h5*/
+h4,h5 {
+    font-size:24px;
+    color:red;
+}
+/*first div element of first section*/
+.contentmine {
+    background-image: url("/content/images/crumpled.jpg");
+    border:3px solid black;
+    padding:15px;
+    height: fit-content;
+    width: fit-content;      
+}
+/*second and third div element of firt section*/
+.content2,content3 {
+    border:3px solid lightgreen;
+    padding:15px;
+}
+* {
+    box-sizing: border-box;
+}
+ /*table of third section*/ 
+.table3 {   
+    float: left;
+    width:48%;
+    margin:10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+}
+table, td, th {
+    border: 1px solid black;
+    padding: 15px;
+    text-align: left;
+    width:100%;
+    height: 100%;
+    border-collapse: collapse;
+} 
+tr:nth-child(even) {
+    background-color: #f2f2f2
+}
+th {
+    color:white;
+    background-color: black;
+}
+  /*Second Section*/
+#rr h1 {   
+    border:3px solid blue;
+}
+#rr h2 {   
+    border-bottom:3px solid blue;
+}
+/*Section 3 form*/
+.form3 { 
+    margin:10px;
+    background-color:  white;
+    padding: 10px;   
+    border:2px solid black; 
+    float:right;
+    width:48%;
+    height: fit-content;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+}
+/*Form elements styling*/
+input[type=text],select,input[type=date],input[type=email],input[type=tel] {
+    height:50px;
+    display:block;
+    margin: 2px 0 20px 0;
+    border: none;
+    background: #f1f1f1;
+    width: 100%;
+}
+input[type=radio] {
+    background: #f1f1f1;
+    margin: 2px 0 20px 0; 
+    display:inline-block;
+}
+input[type=checkbox] {
+    background: #f1f1f1;
+    margin: 2px 0 20px 0; 
+    display:inline-block;
+}
+input[type=submit],button {
+    background-color: black;
+    color:white;
+    padding: 15px 10px;
+    border: none;  
+    width:40%;  
+    margin:10px;
+}
+.rainbow-text {
+    font-family: Pacifico;
+    background-image: linear-gradient(to right, violet, indigo, blue, green, yellow, orange, red);
+    -webkit-background-clip: text;
+    color:transparent;
+}
+/*footer*/
+footer { 
+    color: whitesmoke;
+    background-color: lightgreen;
+    text-align: center; 
+}
+@media only screen and (max-width: 600px) {
+    .outer_box {
+    background-color: black;
+    background-image: none;
+ }       
+}
